@@ -23,7 +23,7 @@ const Friend = ({ friendId, name, subtitle, userPicturePath }) => {
 
   const patchFriend = async () => {
     const response = await fetch(
-      `http://https://masnova-the-social-media-website.onrender.com/users/${_id}/${friendId}`,
+      `https://masnova-the-social-media-website.onrender.com/users/${_id}/${friendId}`,
       {
         method: "PATCH",
         headers: {

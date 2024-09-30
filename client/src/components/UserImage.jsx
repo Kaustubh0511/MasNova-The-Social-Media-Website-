@@ -8,7 +8,7 @@ const UserImage = ({image, size="60px"}) => {
                 width = {size}
                 height ={size}
                 alt = "user"
-                src ={`http://https://masnova-the-social-media-website.onrender.com/assets/${image}`}
+                src ={`https://masnova-the-social-media-website.onrender.com/assets/${image}`}
             />
         </Box>
     );

@@ -13,7 +13,7 @@ const FriendListWidget = ({userId}) => {
 
     const getFriends = async () => {
         const response = await fetch(
-            `https://masnova-the-social-media-website.onrender.com/${userId}/friends`,{
+            `http://localhost:3001/${userId}/friends`,{
                 method:"GET",
                 headers: {Authoriazation:`Bearer ${token}`}
             }
